@@ -1,0 +1,51 @@
+[01] Introduction
+
+What is react ?
+	• React is an open source library for building user interfaces.
+	• It is not a framework. Its main focus is to develop UI.
+	• It has a rich ecosystem.
+
+Advantages of react
+	• React has a component based architecture.
+	• Reusable code.
+	• React is declarative -
+		○ Tell React what you want and React will build the actual UI.
+		○ React will handle efficiently updating and rendering of the components.
+		○ DOM updates are handled gracefully in React.
+	• React can be integrated into any application.
+		(portion of a page or a complete page or an entire application)
+	• React native for mobile applications.
+
+[02] Creating a new React app
+
+    Method 1 : Using npx - npx create-react-app project_name
+			(npx helps us to create-react-app without having to install it)
+    Method 2 : Using npm - 
+		npm install create-react-app -g (installs the create-react-app package globally) create-react-app project_name (creates the react project)
+
+[03] React folder structure
+
+	• package.json : contains scripts and dependencies required for the project.
+	• package-lock.json, .git-ignore  & README.md file.
+	• node_modules : folder where all dependencies are installed.
+	• public folder : 
+		manifest.json (for progressive web apps),
+		favicon.ico,
+		index.html
+	• src folder : index.js (starting point for our application),
+		App.js (responsible for HTML displayed in the browser),
+		App.css (for styling),
+		App.test.js (for unit testing),
+		index.css (styles for body tag)
+
+[04] components
+
+	• A component represents a part of the UI.
+		e.g. App/Root component (contains other components like header, sidenav, main, footer).
+	• All components together make up the entire application.
+	• Components are re-usable. (i.e. we can pass different property to component to display different information)
+	• Components can contain other components (nesting of components).
+
+	Component types -
+		• Functional component - are JS functions which returns HTML (JSX) that describes the UI.
+		• Class component - are regular ES6 classes that extend the Component class from react library. They must contain a render method that returns the HTML (JSX).
