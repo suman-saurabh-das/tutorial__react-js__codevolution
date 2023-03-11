@@ -65,3 +65,11 @@ REACT JS - BASICS
 	• App.js - modified to pass named props to GreetProps.js
 		modified to pass named props to WelcomeProps.js
 
+[13] Event Handling
+
+	• FunctionClick.js - created functional component
+		○ (created an onClick() event handler to log in console)
+	• ClassClick.js - created class component
+		○ (created an onClick() event handler to log in console)
+	• App.js - modified to import and render FunctionClick.js & ClassClick.js
+

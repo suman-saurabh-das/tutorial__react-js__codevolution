@@ -11,8 +11,10 @@ import './App.css';
 
 /* -------------------- Section 02 -------------------- */
 // import Counter from './react-fundamentals/section 02/E11_Counter';
-import GreetPropsDestructuring from './react-fundamentals/section 02/E12_GreetPropsDestructuring';
-import WelcomePropsDestructuring from './react-fundamentals/section 02/E12_WelcomePropsDestructuring';
+// import GreetPropsDestructuring from './react-fundamentals/section 02/E12_GreetPropsDestructuring';
+// import WelcomePropsDestructuring from './react-fundamentals/section 02/E12_WelcomePropsDestructuring';
+import FunctionClick from './react-fundamentals/section 02/E13_FunctionClick';
+import ClassClick from './react-fundamentals/section 02/E13_ClassClick';
 
 function App() {
   return (
@@ -46,8 +48,12 @@ function App() {
       {/* -------------------- Section 02 -------------------- */}
       <>
         {/* <Counter /> */}
-        <GreetPropsDestructuring name={"Bruce"} heroName={"Batman"} />
-        <WelcomePropsDestructuring name={"Clark"} heroName={"Superman"} />
+
+        {/* <GreetPropsDestructuring name={"Bruce"} heroName={"Batman"} /> */}
+        {/* <WelcomePropsDestructuring name={"Clark"} heroName={"Superman"} /> */}
+
+        <FunctionClick />
+        <ClassClick />
       </>
     </div>
   );
