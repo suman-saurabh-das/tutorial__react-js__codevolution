@@ -102,3 +102,10 @@ REACT JS - BASICS
 		○ (used to render the data passed from NameList.js as props)
 	• App.js - modified to import and render NameList.js
 
+[18] List and Keys
+
+	• NameList.js - modified and renamed functional component
+		○ (passed an unique key prop, to remove the error from console)
+	• Person.js - modified and renamed functional component
+		○ (we get an error if we try to use the key prop in the child component)
+
