@@ -136,3 +136,5 @@ REACT JS - BASICS
 		○ (created controlled components, whose value will be stored, displayed and changed based on a state variable and an onChange event handler.)
 	• App.js - modified to import and render Form.js
 
+[22] Component Lifecycle Methods
+

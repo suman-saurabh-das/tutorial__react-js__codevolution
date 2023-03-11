@@ -1,0 +1,18 @@
+When we create a react component, it goes through several stages in its lifecycle.
+React provides us with built in methods that we can override at particular stages in the lifecycle.
+Lifecycle methods are applicable for class components and not functional components.
+For functional components, these methods do not exist but we have hooks.
+
+Lifecycle methods in class components
+	
+	• Mounting - when an instance of a component is being created and inserted into DOM.
+		○ methods - constructor, static getDerivedStateFromProps, render and componentDidMount
+		
+	• Updating - when a component is being re-rendered as a result of changes to either its props or state.
+		○ methods - static getDerivedStateFromProps, shouldComponentUpdate, render, getSnapshotBeforeUpdate and componentDidUpdate
+		
+	• Unmounting - when a component is being removed from the DOM.
+		○ methods - componentWillUnmount
+		
+	• Error Handling - when there is an error during rendering - in a lifecycle method or in the constructor of any child component.
+        ○ methods - static getDerivedStateFromError and componentDidCatch
