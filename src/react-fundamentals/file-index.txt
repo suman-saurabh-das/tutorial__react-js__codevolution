@@ -109,3 +109,9 @@ REACT JS - BASICS
 	• Person.js - modified and renamed functional component
 		○ (we get an error if we try to use the key prop in the child component)
 
+[19] Index as Key (Anti-pattern)
+
+	• NameList.js - modified and renamed functional component
+		○ (using the code-pen example - https://codepen.io/gopinav/pen/gQpepq
+		saw a live demonstration of the problems caused by array index as key and how to avid them)
+

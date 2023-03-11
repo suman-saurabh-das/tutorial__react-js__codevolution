@@ -18,7 +18,7 @@ import './App.css';
 // import EventBind from './react-fundamentals/section 02/E14_EventBind';
 // import ParentComponent from './react-fundamentals/section 02/E15_ParentComponent';
 // import UserGreeting from './react-fundamentals/section 02/E16_UserGreeting';
-import NameList from './react-fundamentals/section 02/E17_E18_NameList';
+import NameList from './react-fundamentals/section 02/E17_E18_E19_NameList';
 
 function App() {
   return (

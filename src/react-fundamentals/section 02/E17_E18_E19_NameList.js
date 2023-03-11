@@ -1,5 +1,5 @@
 import React from 'react'
-import Person from './E17_E18_Person'
+// import Person from './E17_E18_Person'
 
 function NameList() {
     // const names = ["Bruce", "Clark", "Diana"]
@@ -9,16 +9,23 @@ function NameList() {
     //     <div>{nameList}</div>
     // )
 
-    const persons = [
-        { id: 1, name: "Bruce", age: 30, skill: "React" },
-        { id: 2, name: "Clark", age: 25, skill: "Angular" },
-        { id: 3, name: "Diana", age: 28, skill: "Vue" },
-    ]
-    // const personList = persons.map(person => <Person person={person} />)
-    const personList = persons.map(person => <Person key={person.id} person={person} />)
+    // const persons = [
+    //     { id: 1, name: "Bruce", age: 30, skill: "React" },
+    //     { id: 2, name: "Clark", age: 25, skill: "Angular" },
+    //     { id: 3, name: "Diana", age: 28, skill: "Vue" },
+    // ]
+    // // const personList = persons.map(person => <Person person={person} />)
+    // const personList = persons.map(person => <Person key={person.id} person={person} />)
+
+    // return (
+    //     <div>{personList}</div>
+    // )
+
+    const names = ["Bruce", "Clark", "Diana", "Bruce"]
+    const nameList = names.map((name, index) => <h2 key={index}>{index} {name}</h2>)
 
     return (
-        <div>{personList}</div>
+        <div>{nameList}</div>
     )
 }
 
@@ -49,4 +56,16 @@ export default NameList
 
     Importance of key -
     Keys help react identify which items in the list have changed, added or removed and plays a crucial role in handling UI updates efficiently.
+
+        List (array) Index as key
+    We can pass a second parameter to the map method after the elementValue, which will be the index of the element.
+    We can now use this index as a key as it will always be an unique value.
+
+    But using index can cause serious issues in UI.
+    This example demonstrates the issue -> https://codepen.io/gopinav/pen/gQpepq
+
+    When to use Index as a key
+    1. The items in your list do not have an unique id.
+    2. The list is a static list and will not change.
+    3. The list will never be reordered or filtered.
 */
