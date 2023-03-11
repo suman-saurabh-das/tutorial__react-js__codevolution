@@ -174,3 +174,9 @@ REACT JS - BASICS
 		○ (regular components do not implement shouldComponentUpdate method by default)
 	• App.js - modified to import and render ParentComp.js
 
+[27] Memo
+
+	• ParentComp.js - modified to import and render MemoComp.js and commented PureComp.js and RegularComp.js also changed the ParentComp.js from pure component to regular component.
+	• MemoComp.js - created functional component
+		○ (higher order functional component similar to pure component)
+
