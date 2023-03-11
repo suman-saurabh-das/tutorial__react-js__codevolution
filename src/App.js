@@ -27,7 +27,9 @@ import './App.css';
 /* -------------------- Section 03 -------------------- */
 // import Form from './react-fundamentals/section 03/E21_Form';
 // import LifecycleA from './react-fundamentals/section 03/E23_LifecycleA';
-import LifecycleC from './react-fundamentals/section 03/E24_LifecycleC';
+// import LifecycleC from './react-fundamentals/section 03/E24_LifecycleC';
+import Fragments from './react-fundamentals/section 03/E25_Fragments';
+import Table from './react-fundamentals/section 03/E25_Table';
 
 function App() {
   return (
@@ -87,7 +89,10 @@ function App() {
 
         {/* <LifecycleA /> */}
 
-        <LifecycleC />
+        {/* <LifecycleC /> */}
+
+        <Fragments />
+        <Table />
       </>
     </div>
   );

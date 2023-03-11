@@ -154,3 +154,13 @@ REACT JS - BASICS
 		○ (order of execution of child updating lifecycle methods)
 	• App.js - modified to import and render LifecycleC.js
 
+[25] Fragments
+
+	• Fragment.js - created functional component
+		○ (used JSX fragment to group multiple child components)
+	• Table.js - created functional component
+		○ (imported Column.js)
+	• Column.js - created functional component
+		○ (used react fragment to group child components)
+	• App.js - modified to import and render Fragment.js & Table.js
+
