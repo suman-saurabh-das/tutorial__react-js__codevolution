@@ -15,7 +15,8 @@ import './App.css';
 // import WelcomePropsDestructuring from './react-fundamentals/section 02/E12_WelcomePropsDestructuring';
 // import FunctionClick from './react-fundamentals/section 02/E13_FunctionClick';
 // import ClassClick from './react-fundamentals/section 02/E13_ClassClick';
-import EventBind from './react-fundamentals/section 02/E14_EventBind';
+// import EventBind from './react-fundamentals/section 02/E14_EventBind';
+import ParentComponent from './react-fundamentals/section 02/E15_ParentComponent';
 
 function App() {
   return (
@@ -55,7 +56,10 @@ function App() {
 
         {/* <FunctionClick /> */}
         {/* <ClassClick /> */}
-        <EventBind />
+
+        {/* <EventBind /> */}
+
+        <ParentComponent />
       </>
     </div>
   );

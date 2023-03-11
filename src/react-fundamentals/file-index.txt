@@ -79,3 +79,11 @@ REACT JS - BASICS
 		○ (binding event handlers and to be able to use this keyword, 4 methods of binding)
 	• App.js - modified to import and render EventBind.js
 
+[15] Methods as Props
+
+	• ParentComponent.js - created class component
+		○ (created a state variable and a method to display an alert, passed this method as a prop to ChildComponent.js)
+	• ChildComponent.js - created a functional component
+		○ (called the method of ParentComponent.js and passed a parameter to it)
+	• App.js - modified to import and render ParentComponent.js & ChildComponent.js
+
