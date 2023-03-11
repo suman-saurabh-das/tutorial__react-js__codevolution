@@ -19,10 +19,13 @@ import './App.css';
 // import ParentComponent from './react-fundamentals/section 02/E15_ParentComponent';
 // import UserGreeting from './react-fundamentals/section 02/E16_UserGreeting';
 // import NameList from './react-fundamentals/section 02/E17_E18_E19_NameList';
-import Stylesheet from './react-fundamentals/section 02/E20_Stylesheet';
-import InlineStyles from './react-fundamentals/section 02/E20_InlineStyles';
-import './react-fundamentals/section 02/E20_appStyles.css'
-import styles from './react-fundamentals/section 02/E20__appStyles.module.css'
+// import Stylesheet from './react-fundamentals/section 02/E20_Stylesheet';
+// import InlineStyles from './react-fundamentals/section 02/E20_InlineStyles';
+// import './react-fundamentals/section 02/E20_appStyles.css'
+// import styles from './react-fundamentals/section 02/E20__appStyles.module.css'
+
+/* -------------------- Section 03 -------------------- */
+import Form from './react-fundamentals/section 03/E21_Form';
 
 function App() {
   return (
@@ -71,10 +74,14 @@ function App() {
 
         {/* <NameList /> */}
 
-        <Stylesheet primary={true}/>
-        <InlineStyles />
-        <h2 className='error'>Error Message</h2>
-        <h2 className={styles.success}>Yay ! Success</h2>
+        {/* <Stylesheet primary={true}/> */}
+        {/* <InlineStyles /> */}
+        {/* <h2 className='error'>Error Message</h2> */}
+        {/* <h2 className={styles.success}>Yay ! Success</h2> */}
+      </>
+      {/* -------------------- Section 03 -------------------- */}
+      <>
+        <Form />
       </>
     </div>
   );

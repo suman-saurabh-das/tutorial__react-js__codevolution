@@ -128,3 +128,11 @@ REACT JS - BASICS
 		○ (importing module.css files, and using them to add styles)
 	• App.js - modified to import and render Stylesheet.js, InlineStyles.js and use the appStyles.css & appStyles.module.css files
 
+-------------------------------------- SECTION 03 --------------------------------------------------
+
+[21] Basics of form handling
+
+	• Form.js - created class component
+		○ (created controlled components, whose value will be stored, displayed and changed based on a state variable and an onChange event handler.)
+	• App.js - modified to import and render Form.js
+
