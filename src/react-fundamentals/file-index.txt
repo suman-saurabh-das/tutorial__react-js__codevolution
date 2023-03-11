@@ -196,3 +196,11 @@ REACT JS - BASICS
 		○ (accessing the class component Input.js method using ref)
 	• App.js - modified to import and render FocusInput.js
 
+[30] Forwarding Refs
+
+	• ForwardRefInputParent.js - created class component
+		○ (class component used to pass reference to ForwardRefInput.js)
+	• ForwardRefInput.js - created functional component
+		○ (functional component having an input element and using forwardRef() method to pass the reference from parent to child component directly)
+	• App.js - modified to import and render ForwardRefInputParent.js
+

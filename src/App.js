@@ -33,7 +33,8 @@ import './App.css';
 // import ParentComp from './react-fundamentals/section 03/E26_ParentComp';
 // import RefDemo1 from './react-fundamentals/section 03/E28_RefDemo1';
 // import RefDemo2 from './react-fundamentals/section 03/E28_RefDemo2';
-import FocusInput from './react-fundamentals/section 03/E29_FocusInput';
+// import FocusInput from './react-fundamentals/section 03/E29_FocusInput';
+import ForwardRefInputParent from './react-fundamentals/section 03/E30_ForwardRefInputParent';
 
 function App() {
   return (
@@ -103,7 +104,9 @@ function App() {
         {/* <RefDemo1 /> */}
         {/* <RefDemo2 /> */}
 
-        <FocusInput />
+        {/* <FocusInput /> */}
+
+        <ForwardRefInputParent />
       </>
     </div>
   );
