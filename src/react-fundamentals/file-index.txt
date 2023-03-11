@@ -180,3 +180,11 @@ REACT JS - BASICS
 	• MemoComp.js - created functional component
 		○ (higher order functional component similar to pure component)
 
+[28] Ref
+
+	• RefDemo1.js - created class component
+		○ (creating a ref using createRef() method)
+	• RefDemo2.js - created class component
+		○ (creating a ref using callback() method)
+	• App.js - modified to import and render RefDemo1.js & RefDemo2.js
+

@@ -30,7 +30,9 @@ import './App.css';
 // import LifecycleC from './react-fundamentals/section 03/E24_LifecycleC';
 // import Fragments from './react-fundamentals/section 03/E25_Fragments';
 // import Table from './react-fundamentals/section 03/E25_Table';
-import ParentComp from './react-fundamentals/section 03/E26_ParentComp';
+// import ParentComp from './react-fundamentals/section 03/E26_ParentComp';
+import RefDemo1 from './react-fundamentals/section 03/E28_RefDemo1';
+import RefDemo2 from './react-fundamentals/section 03/E28_RefDemo2';
 
 function App() {
   return (
@@ -95,7 +97,10 @@ function App() {
         {/* <Fragments /> */}
         {/* <Table /> */}
 
-        <ParentComp />
+        {/* <ParentComp /> */}
+
+        <RefDemo1 />
+        <RefDemo2 />
       </>
     </div>
   );
