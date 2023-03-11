@@ -94,3 +94,11 @@ REACT JS - BASICS
 		○ if/else, element variables, ternary operator, short circuit operator)
 	• App.js - modified to import and render UserGreeting.js
 
+[17] List Rendering
+	
+	• NameList.js - created functional component
+		○ (used to render an array of names and an array of objects)
+	• Person.js - created functional component
+		○ (used to render the data passed from NameList.js as props)
+	• App.js - modified to import and render NameList.js
+

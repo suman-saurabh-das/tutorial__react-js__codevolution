@@ -17,7 +17,8 @@ import './App.css';
 // import ClassClick from './react-fundamentals/section 02/E13_ClassClick';
 // import EventBind from './react-fundamentals/section 02/E14_EventBind';
 // import ParentComponent from './react-fundamentals/section 02/E15_ParentComponent';
-import UserGreeting from './react-fundamentals/section 02/E16_UserGreeting';
+// import UserGreeting from './react-fundamentals/section 02/E16_UserGreeting';
+import NameList from './react-fundamentals/section 02/E17_NameList';
 
 function App() {
   return (
@@ -62,7 +63,9 @@ function App() {
 
         {/* <ParentComponent /> */}
 
-        <UserGreeting />
+        {/* <UserGreeting /> */}
+
+        <NameList />
       </>
     </div>
   );
