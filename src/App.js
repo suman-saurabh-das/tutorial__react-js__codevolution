@@ -7,7 +7,10 @@ import './App.css';
 // import Hello from './react-fundamentals/section 01/E7_E8_Hello';
 // import GreetProps from './react-fundamentals/section 01/E9_GreetProps';
 // import WelcomeProps from './react-fundamentals/section 01/E9_WelcomeProps';
-import Message from './react-fundamentals/section 01/E10_Message';
+// import Message from './react-fundamentals/section 01/E10_Message';
+
+/* -------------------- Section 02 -------------------- */
+import Counter from './react-fundamentals/section 02/E11_Counter';
 
 function App() {
   return (
@@ -36,7 +39,11 @@ function App() {
         <WelcomeProps name={"Clark"} heroName={"Superman"} />
         <WelcomeProps name={"Diana"} heroName={"Wonder woman"} /> */}
 
-        <Message />
+        {/* <Message /> */}
+      </>
+      {/* -------------------- Section 02 -------------------- */}
+      <>
+        <Counter />
       </>
     </div>
   );

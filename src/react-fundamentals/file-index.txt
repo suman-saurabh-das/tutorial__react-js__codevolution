@@ -1,0 +1,58 @@
+Files Created / Modified for Tutorials
+
+REACT JS - BASICS 
+
+-------------------------------------- SECTION 01 --------------------------------------------------
+
+[1] Introduction
+
+[2] Creating a new React app
+
+	• Initialised a new react project - tutorial__react-js__codevolution
+
+[3] React Folder Structure
+
+[4] Components
+
+[5] Functional Component
+
+	• Greet.js - created functional component
+		○ (normal function, arrow function, named and default export)
+    • App.js - modified to import and render Greet.js
+
+[6] Class Component
+
+	• Welcome.js - created class component
+	• App.js - modified to import and render Welcome.js
+
+[7] Hooks
+
+[8] JSX
+
+	• Hello.js - created functional component
+		○ (used createElement to create a react component without JSX)
+	• App.js - modified to import and render Hello.js
+
+[9] Props
+
+	• GreetProps.js - created functional component
+		○ (passed props from App.js to GreetProps.js)
+	• WelcomeProps.js - created class component
+		○ (used this keyword to get prop values)
+	• App.js - modified to pass named props and children props to GreetProps.js
+		○ modified to pass named props to WelcomeProps.js
+
+[10] State
+
+	• Message.js - created class component
+		○ (created a state variable in the constructor() method of class and updated its value using onClick eventhandler and setState() method)
+	• App.js - modified to import and render Message.js
+
+-------------------------------------- SECTION 02 --------------------------------------------------
+
+[11] setState
+
+	• Counter.js - created class component
+		○ (created a state variable count in the constructor() method of class, necessity of using  setState() method for rendering components in react, callback() function in setState() method, passing function as an argument to setState() method instead of an object)
+	• App.js - modified to import and render Counter.js
+
