@@ -56,3 +56,12 @@ REACT JS - BASICS
 		○ (created a state variable count in the constructor() method of class, necessity of using  setState() method for rendering components in react, callback() function in setState() method, passing function as an argument to setState() method instead of an object)
 	• App.js - modified to import and render Counter.js
 
+[12] Destructuring Props and State
+
+	• GreetPropsDestructuring.js - created functional component
+		○ (destructuring of props in function parameter and function body)
+	• WelcomePropsDestructuring.js - created class component
+		○ (destructuring of props in render method of class component)
+	• App.js - modified to pass named props to GreetProps.js
+		modified to pass named props to WelcomeProps.js
+

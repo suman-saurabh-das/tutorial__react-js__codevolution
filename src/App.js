@@ -10,7 +10,9 @@ import './App.css';
 // import Message from './react-fundamentals/section 01/E10_Message';
 
 /* -------------------- Section 02 -------------------- */
-import Counter from './react-fundamentals/section 02/E11_Counter';
+// import Counter from './react-fundamentals/section 02/E11_Counter';
+import GreetPropsDestructuring from './react-fundamentals/section 02/E12_GreetPropsDestructuring';
+import WelcomePropsDestructuring from './react-fundamentals/section 02/E12_WelcomePropsDestructuring';
 
 function App() {
   return (
@@ -43,7 +45,9 @@ function App() {
       </>
       {/* -------------------- Section 02 -------------------- */}
       <>
-        <Counter />
+        {/* <Counter /> */}
+        <GreetPropsDestructuring name={"Bruce"} heroName={"Batman"} />
+        <WelcomePropsDestructuring name={"Clark"} heroName={"Superman"} />
       </>
     </div>
   );
