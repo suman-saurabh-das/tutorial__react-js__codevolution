@@ -146,3 +146,11 @@ REACT JS - BASICS
 		○ (order of execution of child mounting lifecycle methods)
 	• App.js - modified to import and render LifecycleA.js
 
+[24] Component Updating Lifecycle Methods
+
+	• LifecycleC.js - created class component
+		○ (order of execution of parent updating lifecycle methods)
+	• LifecycleD.js - created class component
+		○ (order of execution of child updating lifecycle methods)
+	• App.js - modified to import and render LifecycleC.js
+
