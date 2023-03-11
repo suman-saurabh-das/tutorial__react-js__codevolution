@@ -73,3 +73,9 @@ REACT JS - BASICS
 		○ (created an onClick() event handler to log in console)
 	• App.js - modified to import and render FunctionClick.js & ClassClick.js
 
+[14] Binding event handlers
+
+	• EventBind.js - created class component
+		○ (binding event handlers and to be able to use this keyword, 4 methods of binding)
+	• App.js - modified to import and render EventBind.js
+
