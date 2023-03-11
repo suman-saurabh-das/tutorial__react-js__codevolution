@@ -25,7 +25,8 @@ import './App.css';
 // import styles from './react-fundamentals/section 02/E20__appStyles.module.css'
 
 /* -------------------- Section 03 -------------------- */
-import Form from './react-fundamentals/section 03/E21_Form';
+// import Form from './react-fundamentals/section 03/E21_Form';
+import LifecycleA from './react-fundamentals/section 03/E23_LifecycleA';
 
 function App() {
   return (
@@ -81,8 +82,9 @@ function App() {
       </>
       {/* -------------------- Section 03 -------------------- */}
       <>
-        <Form />
-        
+        {/* <Form /> */}
+
+        <LifecycleA />
       </>
     </div>
   );

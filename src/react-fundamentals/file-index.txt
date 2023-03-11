@@ -138,3 +138,11 @@ REACT JS - BASICS
 
 [22] Component Lifecycle Methods
 
+[23] Component Mounting Lifecycle Methods
+
+	• LifecycleA.js - created class component
+		○ (order of execution of parent mounting lifecycle methods)
+	• LifecycleB.js - created class component
+		○ (order of execution of child mounting lifecycle methods)
+	• App.js - modified to import and render LifecycleA.js
+
