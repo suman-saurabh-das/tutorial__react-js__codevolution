@@ -87,3 +87,10 @@ REACT JS - BASICS
 		○ (called the method of ParentComponent.js and passed a parameter to it)
 	• App.js - modified to import and render ParentComponent.js & ChildComponent.js
 
+[16] Conditional Rendering
+
+	• UserGreeting.js - created class component
+		○ (used conditional rendering to render a component based on condition
+		○ if/else, element variables, ternary operator, short circuit operator)
+	• App.js - modified to import and render UserGreeting.js
+
