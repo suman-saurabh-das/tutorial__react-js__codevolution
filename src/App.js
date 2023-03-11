@@ -28,8 +28,9 @@ import './App.css';
 // import Form from './react-fundamentals/section 03/E21_Form';
 // import LifecycleA from './react-fundamentals/section 03/E23_LifecycleA';
 // import LifecycleC from './react-fundamentals/section 03/E24_LifecycleC';
-import Fragments from './react-fundamentals/section 03/E25_Fragments';
-import Table from './react-fundamentals/section 03/E25_Table';
+// import Fragments from './react-fundamentals/section 03/E25_Fragments';
+// import Table from './react-fundamentals/section 03/E25_Table';
+import ParentComp from './react-fundamentals/section 03/E26_ParentComp';
 
 function App() {
   return (
@@ -91,8 +92,10 @@ function App() {
 
         {/* <LifecycleC /> */}
 
-        <Fragments />
-        <Table />
+        {/* <Fragments /> */}
+        {/* <Table /> */}
+
+        <ParentComp />
       </>
     </div>
   );

@@ -164,3 +164,13 @@ REACT JS - BASICS
 		○ (used react fragment to group child components)
 	• App.js - modified to import and render Fragment.js & Table.js
 
+[26] Pure Components
+
+	• ParentComp.js - created class component
+		○ (imported PureComp.js and RegularComp.js and used a setInterval() method to update a state variable and see the effect in case of a pure component and regular component. If a pure parent component does not re-render, its child components will also not re-render)
+	• PureComp.js - created class component
+		○ (pure components implement the shouldComponentUpdate method by doing a shallow comparison between prevProps/prevState and currentProps/currentState)
+	• RegularComp.js - created class component
+		○ (regular components do not implement shouldComponentUpdate method by default)
+	• App.js - modified to import and render ParentComp.js
+
