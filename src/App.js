@@ -18,7 +18,11 @@ import './App.css';
 // import EventBind from './react-fundamentals/section 02/E14_EventBind';
 // import ParentComponent from './react-fundamentals/section 02/E15_ParentComponent';
 // import UserGreeting from './react-fundamentals/section 02/E16_UserGreeting';
-import NameList from './react-fundamentals/section 02/E17_E18_E19_NameList';
+// import NameList from './react-fundamentals/section 02/E17_E18_E19_NameList';
+import Stylesheet from './react-fundamentals/section 02/E20_Stylesheet';
+import InlineStyles from './react-fundamentals/section 02/E20_InlineStyles';
+import './react-fundamentals/section 02/E20_appStyles.css'
+import styles from './react-fundamentals/section 02/E20__appStyles.module.css'
 
 function App() {
   return (
@@ -65,7 +69,12 @@ function App() {
 
         {/* <UserGreeting /> */}
 
-        <NameList />
+        {/* <NameList /> */}
+
+        <Stylesheet primary={true}/>
+        <InlineStyles />
+        <h2 className='error'>Error Message</h2>
+        <h2 className={styles.success}>Yay ! Success</h2>
       </>
     </div>
   );

@@ -115,3 +115,16 @@ REACT JS - BASICS
 		○ (using the code-pen example - https://codepen.io/gopinav/pen/gQpepq
 		saw a live demonstration of the problems caused by array index as key and how to avid them)
 
+[20] Styling and CSS basics
+
+	• Stylesheet.js - created functional component
+		○ (imported an external style sheet myStyles.css and used it)
+		○ (styles based on props and state and adding multiple classes using template literals)
+	• myStyles.css - created an external CSS stylesheet
+	• InlineStyles.js - created a functional component
+		○ (created an object with inline styles and used it to style the component)
+	• appStyles.css - external CSS stylesheet to apply red text color
+	• appStyles.module.css - external CSS stylesheet to apply green text color
+		○ (importing module.css files, and using them to add styles)
+	• App.js - modified to import and render Stylesheet.js, InlineStyles.js and use the appStyles.css & appStyles.module.css files
+
