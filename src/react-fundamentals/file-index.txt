@@ -188,3 +188,11 @@ REACT JS - BASICS
 		○ (creating a ref using callback() method)
 	• App.js - modified to import and render RefDemo1.js & RefDemo2.js
 
+[29] Refs with Class Components
+
+	• Input.js - created class component
+		○ (class component having an input element)
+	• FocusInput.js - created class component
+		○ (accessing the class component Input.js method using ref)
+	• App.js - modified to import and render FocusInput.js
+

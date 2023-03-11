@@ -31,8 +31,9 @@ import './App.css';
 // import Fragments from './react-fundamentals/section 03/E25_Fragments';
 // import Table from './react-fundamentals/section 03/E25_Table';
 // import ParentComp from './react-fundamentals/section 03/E26_ParentComp';
-import RefDemo1 from './react-fundamentals/section 03/E28_RefDemo1';
-import RefDemo2 from './react-fundamentals/section 03/E28_RefDemo2';
+// import RefDemo1 from './react-fundamentals/section 03/E28_RefDemo1';
+// import RefDemo2 from './react-fundamentals/section 03/E28_RefDemo2';
+import FocusInput from './react-fundamentals/section 03/E29_FocusInput';
 
 function App() {
   return (
@@ -99,8 +100,10 @@ function App() {
 
         {/* <ParentComp /> */}
 
-        <RefDemo1 />
-        <RefDemo2 />
+        {/* <RefDemo1 /> */}
+        {/* <RefDemo2 /> */}
+
+        <FocusInput />
       </>
     </div>
   );
