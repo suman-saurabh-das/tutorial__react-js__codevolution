@@ -221,3 +221,13 @@ REACT JS - BASICS
 		○ (handling error if wrong hero name is passed in Hero.js)
 	• App.js - modified to import and render Hero.js & ErrorBoundary.js
 
+[33] [34] [35] Higher Order Components (HOC)
+
+	• ClickCounter.js - created a class component.
+		○ (enhancing the component to add counter functionality by using HOC withCounter.js)
+	• HoverCounter.js - created a class component.
+		○ (enhancing the component to add counter functionality by using HOC withCounter.js)
+	• withCounter.js - created a higher order component (function)
+		○ (adds counter function to any component which is passed to this HOC)
+	• App.js - modified to import and render ClickCounter.js & HoverCounter.js
+

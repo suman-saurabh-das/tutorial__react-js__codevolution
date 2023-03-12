@@ -38,8 +38,10 @@ import './App.css';
 
 /* -------------------- Section 04 -------------------- */
 // import PortalDemo from './react-fundamentals/section 04/E31_PortalDemo';
-import Hero from './react-fundamentals/section 04/E32_Hero';
-import ErrorBoundary from './react-fundamentals/section 04/E32_ErrorBoundary';
+// import Hero from './react-fundamentals/section 04/E32_Hero';
+// import ErrorBoundary from './react-fundamentals/section 04/E32_ErrorBoundary';
+import ClickCounter from './react-fundamentals/section 04/E33_E34_E35_ClickCounter';
+import HoverCounter from './react-fundamentals/section 04/E33_E34_E35_HoverCounter';
 
 function App() {
   return (
@@ -117,7 +119,7 @@ function App() {
       <>
         {/* <PortalDemo /> */}
 
-        <ErrorBoundary>
+        {/* <ErrorBoundary>
           <Hero heroName={"Batman"} />
         </ErrorBoundary>
         <ErrorBoundary>
@@ -125,7 +127,10 @@ function App() {
         </ErrorBoundary>
         <ErrorBoundary>
           <Hero heroName={"Joker"} />
-        </ErrorBoundary>
+        </ErrorBoundary> */}
+
+        <ClickCounter name="Saurabh" />
+        <HoverCounter name="Saurabh" />
       </>
     </div>
   );
