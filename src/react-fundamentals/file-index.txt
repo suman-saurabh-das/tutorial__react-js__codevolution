@@ -204,3 +204,12 @@ REACT JS - BASICS
 		○ (functional component having an input element and using forwardRef() method to pass the reference from parent to child component directly)
 	• App.js - modified to import and render ForwardRefInputParent.js
 
+-------------------------------------- SECTION 04 --------------------------------------------------
+
+[31] Portals
+
+	• PortalDemo.js - created a functional component.
+		○ (using ReactDOM.createPortal(), rendered the functional component inside portal-root element)
+	• App.js - modified to import and render PortalDemo.js
+	• index.html - modified by adding additional <div> with id = portal-root
+

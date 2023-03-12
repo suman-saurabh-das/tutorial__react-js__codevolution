@@ -34,7 +34,10 @@ import './App.css';
 // import RefDemo1 from './react-fundamentals/section 03/E28_RefDemo1';
 // import RefDemo2 from './react-fundamentals/section 03/E28_RefDemo2';
 // import FocusInput from './react-fundamentals/section 03/E29_FocusInput';
-import ForwardRefInputParent from './react-fundamentals/section 03/E30_ForwardRefInputParent';
+// import ForwardRefInputParent from './react-fundamentals/section 03/E30_ForwardRefInputParent';
+
+/* -------------------- Section 04 -------------------- */
+import PortalDemo from './react-fundamentals/section 04/E31_PortalDemo';
 
 function App() {
   return (
@@ -106,7 +109,11 @@ function App() {
 
         {/* <FocusInput /> */}
 
-        <ForwardRefInputParent />
+        {/* <ForwardRefInputParent /> */}
+      </>
+      {/* -------------------- Section 04 -------------------- */}
+      <>
+        <PortalDemo />
       </>
     </div>
   );
