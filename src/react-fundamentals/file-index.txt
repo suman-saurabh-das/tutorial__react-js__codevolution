@@ -242,3 +242,14 @@ REACT JS - BASICS
 	• Counter.js - created a class component.
 		○ (component used to add counter functionality to other components by passing the count and incrementCount methods as props)
 	• App.js - modified to import and render Counter.js which renders ClickCounter2.js & HoverCounter2.js
+
+[38] [39] [40] Context
+
+	• ComponentC.js - created a class component.
+		○ (contains the nested ComponentE.js)
+	• ComponentE.js - created a class component.
+		○ (contains the nested ComponentF.js and using user context to consume the value passed from App.js)
+	• ComponentF.js - created a class component.
+		○ (using the user context component to consume the value passed from App.js)
+	• App.js - modified to import and render ComponentC.js and pass a value using context
+

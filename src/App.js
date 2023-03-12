@@ -42,10 +42,12 @@ import './App.css';
 // import ErrorBoundary from './react-fundamentals/section 04/E32_ErrorBoundary';
 // import ClickCounter from './react-fundamentals/section 04/E33_E34_E35_ClickCounter';
 // import HoverCounter from './react-fundamentals/section 04/E33_E34_E35_HoverCounter';
-import User from './react-fundamentals/section 04/E36_E37_User';
-import Counter from './react-fundamentals/section 04/E36_E37_Counter';
-import ClickCounter2 from './react-fundamentals/section 04/E36_E37_ClickCounter2';
-import HoverCounter2 from './react-fundamentals/section 04/E36_E37_HoverCounter2';
+// import User from './react-fundamentals/section 04/E36_E37_User';
+// import Counter from './react-fundamentals/section 04/E36_E37_Counter';
+// import ClickCounter2 from './react-fundamentals/section 04/E36_E37_ClickCounter2';
+// import HoverCounter2 from './react-fundamentals/section 04/E36_E37_HoverCounter2';
+import ComponentC from './react-fundamentals/section 04/pages/E38_E39_E40_ComponentC';
+import { UserProvider } from './react-fundamentals/section 04/E38_E39_E40_UserContext';
 
 function App() {
   return (
@@ -136,7 +138,7 @@ function App() {
         {/* <ClickCounter name="Saurabh" /> */}
         {/* <HoverCounter name="Saurabh" /> */}
 
-        <User render={(isLoggedIn) => isLoggedIn ? "Saurabh" : "Guest"} />
+        {/* <User render={(isLoggedIn) => isLoggedIn ? "Saurabh" : "Guest"} /> */}
 
         {/* Using Render Props */}
         {/* <Counter render={
@@ -153,7 +155,7 @@ function App() {
         </Counter> */}
 
         {/* Using Children Props */}
-        <Counter>
+        {/* <Counter>
           {
             (count, incrementCount) => <ClickCounter2
               count={count}
@@ -166,7 +168,11 @@ function App() {
               count={count}
               incrementCount={incrementCount} />
           }
-        </Counter>
+        </Counter> */}
+
+        <UserProvider value="Saurabh">
+          <ComponentC />
+        </UserProvider>
       </>
     </div>
   );
