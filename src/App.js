@@ -37,7 +37,9 @@ import './App.css';
 // import ForwardRefInputParent from './react-fundamentals/section 03/E30_ForwardRefInputParent';
 
 /* -------------------- Section 04 -------------------- */
-import PortalDemo from './react-fundamentals/section 04/E31_PortalDemo';
+// import PortalDemo from './react-fundamentals/section 04/E31_PortalDemo';
+import Hero from './react-fundamentals/section 04/E32_Hero';
+import ErrorBoundary from './react-fundamentals/section 04/E32_ErrorBoundary';
 
 function App() {
   return (
@@ -113,7 +115,17 @@ function App() {
       </>
       {/* -------------------- Section 04 -------------------- */}
       <>
-        <PortalDemo />
+        {/* <PortalDemo /> */}
+
+        <ErrorBoundary>
+          <Hero heroName={"Batman"} />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Hero heroName={"Superman"} />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Hero heroName={"Joker"} />
+        </ErrorBoundary>
       </>
     </div>
   );

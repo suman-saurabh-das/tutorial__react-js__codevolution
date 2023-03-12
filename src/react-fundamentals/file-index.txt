@@ -213,3 +213,11 @@ REACT JS - BASICS
 	• App.js - modified to import and render PortalDemo.js
 	• index.html - modified by adding additional <div> with id = portal-root
 
+[32] Error Boundary
+
+	• Hero.js - created a functional component.
+		○ (render hero name based on props passed from App.js)
+	• ErrorBoundary.js - created a class component.
+		○ (handling error if wrong hero name is passed in Hero.js)
+	• App.js - modified to import and render Hero.js & ErrorBoundary.js
+
