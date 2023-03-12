@@ -50,7 +50,7 @@ import './App.css';
 // import { UserProvider } from './react-fundamentals/section 04/E38_E39_E40_UserContext';
 
 /* -------------------- Section 05 -------------------- */
-
+import PostList from './react-fundamentals/section 05/E42_PostList';
 
 function App() {
   return (
@@ -179,7 +179,7 @@ function App() {
       </>
       {/* -------------------- Section 05 -------------------- */}
       <>
-        
+      <PostList />
       </>
     </div>
   );

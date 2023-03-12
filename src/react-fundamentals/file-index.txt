@@ -259,3 +259,9 @@ REACT JS - BASICS
 
 	• Install the axios HTTP library using : npm install axios
 
+[42] HTTP GET Request
+
+	• PostList.js - created a class component.
+		○ (using axios, fetched data from json placeholder API)
+	• App.js - modified to import and render PostList.js
+
