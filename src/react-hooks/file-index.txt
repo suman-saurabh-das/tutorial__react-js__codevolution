@@ -14,3 +14,11 @@ REACT JS - HOOKS
 		○ (functional counter component)
 	• App.js - modified to import and render ClasCounter.js & HookCounter.js
 
+[03] useState with Previous state
+
+	• HookCounter2.js - created a functional component.
+		○ (implemented counter which updates new value based on the previous value)
+	• ClassCounter2.js - created a class component.
+		○ (implemented counter which updates new value based on the previous value)
+	• App.js - modified to import and render HookCounter2.js
+
