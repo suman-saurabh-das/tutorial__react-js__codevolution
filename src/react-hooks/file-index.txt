@@ -27,3 +27,9 @@ REACT JS - HOOKS
 	• HookCounter3.js - created a functional component.
 		○ (input first and last name of user as an object and display them)
 	• App.js - modified to import and render HookCounter3.js
+
+[05] useState with Array
+
+	• HookCounter4.js - created a functional component.
+		○ (adding random numbers to an array and displaying them in a list)
+	• App.js - modified to import and render HookCounter4.js
