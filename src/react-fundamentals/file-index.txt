@@ -265,3 +265,10 @@ REACT JS - BASICS
 		○ (using axios, fetched data from json placeholder API)
 	• App.js - modified to import and render PostList.js
 
+[43] HTTP POST Request
+
+	• PostForm.js - created a class component.
+		○ (using axios, sent data to json placeholder API)
+	• App.js - modified to import and render PostForm.js
+
+----------------------------------------------------------------------------------------------------
