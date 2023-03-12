@@ -231,3 +231,14 @@ REACT JS - BASICS
 		○ (adds counter function to any component which is passed to this HOC)
 	• App.js - modified to import and render ClickCounter.js & HoverCounter.js
 
+[36] [37] Render Props
+
+	• ClickCounter2.js - created a class component.
+		○ (component used to display the UI for a click counter)
+	• HoverCounter2.js - created a class component.
+		○ (component used to display the UI for a hover counter)
+	• User.js - created a class component.
+		○ (passed a function as a prop and called it to conditionally render the UI)
+	• Counter.js - created a class component.
+		○ (component used to add counter functionality to other components by passing the count and incrementCount methods as props)
+	• App.js - modified to import and render Counter.js which renders ClickCounter2.js & HoverCounter2.js
