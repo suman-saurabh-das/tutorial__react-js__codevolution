@@ -1,0 +1,7 @@
+[41] HTTP	
+
+    • React is a library for building UI and it is not concerned about HTTP.
+	• To make API calls (ajax requests), we will have to make use of HTTP library.
+	• In this tutorial, we will be using axios.
+	• To add axios in the project directory run the command : npm install axios
+    • Now axios will be added to the list of dependencies.

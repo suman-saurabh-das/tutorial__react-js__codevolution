@@ -253,3 +253,9 @@ REACT JS - BASICS
 		○ (using the user context component to consume the value passed from App.js)
 	• App.js - modified to import and render ComponentC.js and pass a value using context
 
+-------------------------------------- SECTION 05 --------------------------------------------------
+
+[41] HTTP
+
+	• Install the axios HTTP library using : npm install axios
+

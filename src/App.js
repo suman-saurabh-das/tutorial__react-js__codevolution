@@ -46,8 +46,11 @@ import './App.css';
 // import Counter from './react-fundamentals/section 04/E36_E37_Counter';
 // import ClickCounter2 from './react-fundamentals/section 04/E36_E37_ClickCounter2';
 // import HoverCounter2 from './react-fundamentals/section 04/E36_E37_HoverCounter2';
-import ComponentC from './react-fundamentals/section 04/pages/E38_E39_E40_ComponentC';
-import { UserProvider } from './react-fundamentals/section 04/E38_E39_E40_UserContext';
+// import ComponentC from './react-fundamentals/section 04/pages/E38_E39_E40_ComponentC';
+// import { UserProvider } from './react-fundamentals/section 04/E38_E39_E40_UserContext';
+
+/* -------------------- Section 05 -------------------- */
+
 
 function App() {
   return (
@@ -170,9 +173,13 @@ function App() {
           }
         </Counter> */}
 
-        <UserProvider value="Saurabh">
+        {/* <UserProvider value="Saurabh">
           <ComponentC />
-        </UserProvider>
+        </UserProvider> */}
+      </>
+      {/* -------------------- Section 05 -------------------- */}
+      <>
+        
       </>
     </div>
   );
