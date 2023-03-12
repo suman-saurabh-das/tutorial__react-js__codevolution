@@ -6,3 +6,11 @@ REACT JS - HOOKS
 
 [01] Hooks introduction
 
+[02] useState Hook
+
+	• ClassCounter.js - created a class component.
+		○ (class based counter component)
+	• HookCounter.js - created a functional component.
+		○ (functional counter component)
+	• App.js - modified to import and render ClasCounter.js & HookCounter.js
+

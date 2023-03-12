@@ -56,7 +56,8 @@ import './App.css';
 
 /* -------------------- REACT HOOKS ------------------- */
 /* -------------------- Section 01 -------------------- */
-
+import ClassCounter from './react-hooks/section 01/E2_ClassCounter';
+import HookCounter from './react-hooks/section 01/E2_HookCounter';
 
 function App() {
   return (
@@ -194,7 +195,8 @@ function App() {
       {/* -------------------- REACT HOOKS ------------------- */}
       {/* -------------------- Section 01 -------------------- */}
       <>
-        
+        <ClassCounter />
+        <HookCounter />
       </>
     </div>
   );
