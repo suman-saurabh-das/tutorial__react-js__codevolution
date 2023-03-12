@@ -22,3 +22,8 @@ REACT JS - HOOKS
 		○ (implemented counter which updates new value based on the previous value)
 	• App.js - modified to import and render HookCounter2.js
 
+[04] useState with Object
+
+	• HookCounter3.js - created a functional component.
+		○ (input first and last name of user as an object and display them)
+	• App.js - modified to import and render HookCounter3.js

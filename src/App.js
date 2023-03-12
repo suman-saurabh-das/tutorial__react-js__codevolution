@@ -58,8 +58,9 @@ import './App.css';
 /* -------------------- Section 01 -------------------- */
 // import ClassCounter from './react-hooks/section 01/E2_ClassCounter';
 // import HookCounter from './react-hooks/section 01/E2_HookCounter';
-import ClassCounter2 from './react-hooks/section 01/E3_ClassCounter2';
-import HookCounter2 from './react-hooks/section 01/E3_HookCounter2';
+// import ClassCounter2 from './react-hooks/section 01/E3_ClassCounter2';
+// import HookCounter2 from './react-hooks/section 01/E3_HookCounter2';
+import HookCounter3 from './react-hooks/section 01/E4_HookCounter3';
 
 function App() {
   return (
@@ -200,8 +201,10 @@ function App() {
         {/* <ClassCounter /> */}
         {/* <HookCounter /> */}
 
-        <ClassCounter2 />
-        <HookCounter2 />
+        {/* <ClassCounter2 /> */}
+        {/* <HookCounter2 /> */}
+
+        <HookCounter3 />
       </>
     </div>
   );
