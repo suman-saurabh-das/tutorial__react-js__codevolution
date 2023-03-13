@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 
 /* ---------------- REACT FUNDAMENTALS ---------------- */
 /* -------------------- Section 01 -------------------- */
@@ -73,7 +74,8 @@ import './App.css';
 /* -------------------- Section 02 -------------------- */
 // import IntervalClassCounter from './react-hooks/section 02/E11_IntervalClassCounter';
 // import IntervalHookCounter from './react-hooks/section 02/E11_IntervalHookCounter';
-import DataFetching from './react-hooks/section 02/E12_E13_E14_DataFetching';
+// import DataFetching from './react-hooks/section 02/E12_E13_E14_DataFetching';
+import DataPassingUsingContext from './react-hooks/section 02/E16_E17_DataPassingUsingContext';
 
 function App() {
   return (
@@ -204,7 +206,7 @@ function App() {
       {/* -------------------- Section 05 -------------------- */}
       <>
         {/* <PostList /> */}
-        
+
         {/* <PostForm /> */}
       </>
 
@@ -237,7 +239,9 @@ function App() {
         {/* <IntervalClassCounter /> */}
         {/* <IntervalHookCounter /> */}
 
-        <DataFetching />
+        {/* <DataFetching /> */}
+
+        <DataPassingUsingContext />
       </>
     </div>
   );

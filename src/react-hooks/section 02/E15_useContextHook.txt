@@ -1,0 +1,23 @@
+useContext Hook -
+
+The useContext hook allows us to pass data to components directly and helps in avaioding prop drilling.
+
+<App_Component>
+    const username = "user"
+    <ComponentA name={username} />
+
+    <ComponentB name={username}>
+        <ComponentD name={username} />
+    </ComponentB>
+
+    <ComponentC name={username}>
+        <ComponentE name={username}>
+            <ComponentF name={username}/>
+        </ComponentE>
+    </ComponentC>
+</App_Component>
+
+Suppose we want to pass a property name as a prop from the App component and display them in components A, D and F. For components D and F we will have to pass the name prop through all the intermediate components. Even though components B, C and E do not need the prop, we still have to pass the prop through them.
+This becomes a problem if we have a long list of nested components and to pass information like language preference, UI key & authenticated user, which are required by many components. Context helps us in sending data directly to required component without having to manually drill down through the component tree.
+
+Context - Context API provides a way to pass data through the component tree without having to pass props down manually at every level.

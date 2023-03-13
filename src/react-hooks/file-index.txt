@@ -88,3 +88,16 @@ REACT JS - HOOKS
 		○ (fetching data only when user submits the input value)
 	• App.js - modified to import and render DataFetching.js
 
+[15] [16] [17] useContext
+
+	• ComponentC.js - created a functional component.
+		○ (Parent component for FunctionalComponentE)
+	• ComponentE.js - created a functional component.
+		○ (Parent component for FunctionalComponentF)
+		○ (Rendering prop data using useContext() hook)
+	• ComponentF.js - created a functional component.
+		○ (Component receives props directly from DataPassingUsingContext.js via context)
+	• DataPassingUsingContext - created a functional component.
+		○ (Created UserContext & WorkContext and passed values to child components)
+	• App.js - modified to import and render DataPassingUsingContext.js
+
