@@ -88,7 +88,7 @@ REACT JS - HOOKS
 		○ (fetching data only when user submits the input value)
 	• App.js - modified to import and render DataFetching.js
 
-[15] [16] [17] useContext
+[15] [16] [17] useContext Hook
 
 	• ComponentC.js - created a functional component.
 		○ (Parent component for FunctionalComponentE)
@@ -100,4 +100,6 @@ REACT JS - HOOKS
 	• DataPassingUsingContext - created a functional component.
 		○ (Created UserContext & WorkContext and passed values to child components)
 	• App.js - modified to import and render DataPassingUsingContext.js
+
+[18] useReducer Hook
 
