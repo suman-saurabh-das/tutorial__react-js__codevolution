@@ -70,3 +70,13 @@ REACT JS - HOOKS
 		○ (cleaning up of muse move event listener in useEffect() hook)
 	• App.js - modified to import and render ClassMouse.js & HookMouse.js
 
+-------------------------------------- SECTION 02 --------------------------------------------------
+
+[11] useEffect - with Incorrect Dependency
+
+	• IntervalClassCounter.js - created a class component.
+		○ (class counter using setInterval() method)
+	• IntervalHookCounter.js - created a functional component.
+		○ (functional counter using setInterval() method)
+	• App.js - modified to import and render IntervalClassCounter.js & IntervalHookCounter.js
+
