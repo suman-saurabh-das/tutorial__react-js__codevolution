@@ -103,3 +103,9 @@ REACT JS - HOOKS
 
 [18] useReducer Hook
 
+[19] useReducer (simple state & action)
+	
+	• Counter1.js - created a functional component.
+		○ (created a counter whose state was managed via useReducer() hook)
+	• App.js - modified to import and render Counter1.js.
+
