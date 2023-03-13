@@ -76,7 +76,8 @@ import React from 'react';
 // import IntervalHookCounter from './react-hooks/section 02/E11_IntervalHookCounter';
 // import DataFetching from './react-hooks/section 02/E12_E13_E14_DataFetching';
 // import DataPassingUsingContext from './react-hooks/section 02/E16_E17_DataPassingUsingContext';
-import Counter1 from './react-hooks/section 02/E19_Counter1';
+// import Counter1 from './react-hooks/section 02/E19_Counter1';
+import Counter2 from './react-hooks/section 02/E20_Counter2';
 
 function App() {
   return (
@@ -243,7 +244,8 @@ function App() {
         {/* <DataFetching /> */}
 
         {/* <DataPassingUsingContext /> */}
-        <Counter1 />
+        {/* <Counter1 /> */}
+        <Counter2 />
       </>
     </div>
   );

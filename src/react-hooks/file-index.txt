@@ -109,3 +109,10 @@ REACT JS - HOOKS
 		○ (created a counter whose state was managed via useReducer() hook)
 	• App.js - modified to import and render Counter1.js.
 
+[20] useReducer (complex state & action)
+
+	• Counter2.js - created a functional component.
+		○ (created a counter whose state was managed via useReducer() hook)
+		○ (specified the state and action as objects)
+	• App.js - modified to import and render Counter2.js.
+
