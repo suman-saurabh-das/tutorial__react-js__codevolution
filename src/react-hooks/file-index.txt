@@ -33,3 +33,5 @@ REACT JS - HOOKS
 	• HookCounter4.js - created a functional component.
 		○ (adding random numbers to an array and displaying them in a list)
 	• App.js - modified to import and render HookCounter4.js
+
+[06] useEffect Hook
