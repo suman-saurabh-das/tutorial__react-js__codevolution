@@ -64,8 +64,10 @@ import './App.css';
 // import HookCounter4 from './react-hooks/section 01/E5_HookCounter4';
 // import ClassCounter3 from './react-hooks/section 01/E7_ClassCounter3';
 // import HookCounter5 from './react-hooks/section 01/E7_HookCounter5';
-import ClassCounter4 from './react-hooks/section 01/E8_ClassCounter4';
-import HookCounter6 from './react-hooks/section 01/E8_HookCounter6';
+// import ClassCounter4 from './react-hooks/section 01/E8_ClassCounter4';
+// import HookCounter6 from './react-hooks/section 01/E8_HookCounter6';
+// import ClassMouse from './react-hooks/section 01/E9_ClassMouse';
+import HookMouse from './react-hooks/section 01/E9_HookMouse';
 
 function App() {
   return (
@@ -216,8 +218,11 @@ function App() {
         {/* <ClassCounter3 /> */}
         {/* <HookCounter5 /> */}
 
-        <ClassCounter4 />
-        <HookCounter6 />
+        {/* <ClassCounter4 /> */}
+        {/* <HookCounter6 /> */}
+
+        {/* <ClassMouse /> */}
+        <HookMouse />
       </>
     </div>
   );

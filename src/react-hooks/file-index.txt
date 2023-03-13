@@ -52,3 +52,11 @@ REACT JS - HOOKS
 		○ (conditionally rendering title based on change in count value using useEffect() hook)
 	• App.js - modified to import and render ClassCounter4.js & HookCounter6.js
 
+[09] useEffect - Run effects only once
+
+	• ClassMouse.js - created a class component.
+		○ (adding mousemove event listener in componentDidMount() and displaying mouse position)
+	• HookMouse.js - created a functional component.
+		○ (adding mousemove event listener in useEffect() and displaying mouse position)
+	• App.js - modified to import and render ClassMouse.js & HookMouse.js
+
