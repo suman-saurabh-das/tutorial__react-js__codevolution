@@ -60,3 +60,13 @@ REACT JS - HOOKS
 		○ (adding mousemove event listener in useEffect() and displaying mouse position)
 	• App.js - modified to import and render ClassMouse.js & HookMouse.js
 
+[10] useEffect - with Clean-up
+
+	• MouseContainer.js - created a functional component.
+		○ (container for HookMouse component with toggle button to show/hide HookMouse)
+	• ClassMouse.js - modified class component.
+		○ (cleaning up of mouse move event listener in componentWillUnmount())
+	• HookMouse.js - modified functional component.
+		○ (cleaning up of muse move event listener in useEffect() hook)
+	• App.js - modified to import and render ClassMouse.js & HookMouse.js
+
