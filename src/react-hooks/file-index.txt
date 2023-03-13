@@ -80,3 +80,11 @@ REACT JS - HOOKS
 		○ (functional counter using setInterval() method)
 	• App.js - modified to import and render IntervalClassCounter.js & IntervalHookCounter.js
 
+[12] [13] [14] Fetching data with useEffect
+
+	• DataFetching.js - created a functional component.
+		○ (fetching data from json placeholder API and displaying it in a list)
+		○ (fetching data from different endpoints based on user input)
+		○ (fetching data only when user submits the input value)
+	• App.js - modified to import and render DataFetching.js
+
