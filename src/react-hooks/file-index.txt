@@ -35,3 +35,12 @@ REACT JS - HOOKS
 	• App.js - modified to import and render HookCounter4.js
 
 [06] useEffect Hook
+
+[07] useEffect Hook after Render
+
+	• ClassCounter3.js - created a class component.
+		○ (counter component with componentDidMount() & componentDidUpdate() methods)
+	• HookCounter5.js - created a functional component.
+		○ (counter component with useEffect hook to update the document title)
+	• App.js - modified to import and render ClassCounter3.js & HookCounter5.js
+

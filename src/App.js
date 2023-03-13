@@ -61,7 +61,9 @@ import './App.css';
 // import ClassCounter2 from './react-hooks/section 01/E3_ClassCounter2';
 // import HookCounter2 from './react-hooks/section 01/E3_HookCounter2';
 // import HookCounter3 from './react-hooks/section 01/E4_HookCounter3';
-import HookCounter4 from './react-hooks/section 01/E5_HookCounter4';
+// import HookCounter4 from './react-hooks/section 01/E5_HookCounter4';
+import ClassCounter3 from './react-hooks/section 01/E7_ClassCounter3';
+import HookCounter5 from './react-hooks/section 01/E7_HookCounter5';
 
 function App() {
   return (
@@ -207,7 +209,10 @@ function App() {
 
         {/* <HookCounter3 /> */}
 
-        <HookCounter4 />
+        {/* <HookCounter4 /> */}
+
+        <ClassCounter3 />
+        <HookCounter5 />
       </>
     </div>
   );
