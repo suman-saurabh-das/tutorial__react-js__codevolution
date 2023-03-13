@@ -44,3 +44,11 @@ REACT JS - HOOKS
 		○ (counter component with useEffect hook to update the document title)
 	• App.js - modified to import and render ClassCounter3.js & HookCounter5.js
 
+[08]  useEffect - Conditionally run effects
+
+	• ClassCounter4.js - created a class component.
+		○ (conditionally rendering title based on change in state value in componentDidUpdate() method)
+	• HookCounter6.js - created a functional component.
+		○ (conditionally rendering title based on change in count value using useEffect() hook)
+	• App.js - modified to import and render ClassCounter4.js & HookCounter6.js
+
